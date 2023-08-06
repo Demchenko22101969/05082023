@@ -7,8 +7,7 @@
 painting(10,25);*/
 
 function showMessage(from, text) { // параметри: from, text
-    alert(from + ': ' + text);
+    alert (from + ': ' + text);
   }
-  
-  showMessage('Анна', 'Привіт!'); // Анна: Привіт! (*)
+    showMessage('Анна', 'Привіт!'); // Анна: Привіт! (*)
   showMessage('Анна', "Як справи?"); // Анна: Як справи? (**)
